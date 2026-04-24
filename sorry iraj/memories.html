@@ -1,0 +1,71 @@
+
+<!-- ================= MEMORIES PAGE ================= -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Memories</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align:center;
+      background:#ffe4e9;
+      overflow:hidden;
+    }
+
+    .gallery img {
+      width:200px;
+      margin:10px;
+      border-radius:15px;
+    }
+
+    a {
+      display:block;
+      margin:20px;
+      color:#ff4d6d;
+    }
+
+    /* Floating hearts */
+    .heart {
+      position: fixed;
+      bottom: -50px;
+      font-size: 24px;
+      animation: floatUp 6s linear infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes floatUp {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.7;
+      }
+      100% {
+        transform: translateY(-110vh) scale(1.5);
+        opacity: 0;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Our Beautiful Moments 💕</h1>
+
+  <div class="gallery">
+    <img src="assets/us1.jpg">
+    <img src="assets/us2.jpg">
+    <img src="assets/us4.jpg">
+  </div>
+
+  <p>I cherish every moment with you. I hope we can make many more ❤️</p>
+
+  <a href="index.html">Go back</a>
+
+  <!-- Hearts -->
+  <div class="heart" style="left:10%; animation-delay:0s;">❤️</div>
+  <div class="heart" style="left:25%; animation-delay:2s;">💖</div>
+  <div class="heart" style="left:40%; animation-delay:4s;">💕</div>
+  <div class="heart" style="left:60%; animation-delay:1s;">💗</div>
+  <div class="heart" style="left:75%; animation-delay:3s;">💓</div>
+  <div class="heart" style="left:90%; animation-delay:5s;">❤️</div>
+
+</body>
+</html>
